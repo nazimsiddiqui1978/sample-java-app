@@ -7,7 +7,7 @@ pipeline {
  
     environment {
         // Use the credentials ID that you have set up in Jenkins for Nexus
-        NEXUS_CREDENTIALS = credentials('nexus-credentials') 
+        NEXUS_CREDENTIALS = credentials('nexus2') 
         // Nexus repository URL where the artifact will be deployed
         MAVEN_REPO_URL = 'http://3.6.4.139:8081/repository/Maven-Hosted-Nazim/' 
     }
